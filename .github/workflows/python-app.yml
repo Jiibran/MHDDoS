@@ -29,4 +29,4 @@ jobs:
         pip install -r requirements.txt
     - name: Running
       run: |
-        python start.py tcp 108.136.164.77:30120 400 60 true
+        python start.py fivem 108.136.164.77:30120 400 60 true
